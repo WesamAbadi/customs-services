@@ -1,0 +1,26 @@
+.services {
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.services h2 {
+  margin-bottom: 20px;
+}
+
+.services-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
