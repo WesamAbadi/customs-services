@@ -4,17 +4,26 @@
 }
 
 .header-content {
-  max-width: 800px;
+  max-width: 1320px;
   margin: auto;
   text-align: center;
   display: flex;
+}
+.header-content .flex-div {
+  flex: 0 0 auto;
+  width: 50%;
 }
 
 .header-image {
   width: 100%;
   height: auto;
 }
-
+.header-text {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
 .header h1 {
   font-size: 2rem;
   margin: 20px 0;
@@ -25,7 +34,8 @@
 }
 
 .header button {
-    color: white;
+  font-family: "Vazirmatn";
+  color: white;
   padding: 10px 20px;
   margin: 10px;
   border-radius: 10px;

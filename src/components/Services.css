@@ -5,6 +5,15 @@
 
 .services h2 {
   margin-bottom: 20px;
+
+  background: #ff9d43;
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 30px;
+  padding: 15px 25px;
+  font-size: 25px;
+  border-radius: 20px;
+  box-shadow: 0px 15px 35px #ff9d433d;
 }
 
 .services-cards {
@@ -18,6 +27,39 @@
   margin: 10px;
   padding: 10px;
   text-align: center;
+  background: #fff;
+  box-shadow: 0px 15px 35px rgba(160, 160, 160, 0.3019607843);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 24px;
+}
+.fastCall {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  color: #fff;
+  padding: 20px 30px;
+  margin: 3rem 0;
+
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.0784313725);
+  background: #353a48;
+}
+
+.fastCall p,
+.fastCall a {
+  font-size: 22px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+  font-family: "Vazirmatn", sans-serif;
 }
 
 .card img {

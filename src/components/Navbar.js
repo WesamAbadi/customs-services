@@ -8,7 +8,7 @@ function Navbar() {
         <img src="logo.png" alt="Company Logo" />
       </div>
       <ul className="navbar-links">
-        <li>تماس با ما</li>
+        <li> <a href="#">تماس با ما</a></li>
         <li>مشتریان ما</li>
         <li>درباره ما</li>
         <li>خدمات تخصصی</li>

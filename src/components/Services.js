@@ -9,7 +9,7 @@ function Services() {
       <h2>گروه علــمی، همیشه در خدمت شما</h2>
       <div className="services-cards">
         <div className="card">
-          <img src= {service1} alt="Service 1" />
+          <img src={service1} alt="Service 1" />
           <h3>بازرگانی علــمی</h3>
         </div>
         <div className="card">
@@ -24,6 +24,10 @@ function Services() {
           <img src={service1} alt="Service 4" />
           <h3>گمرک شهریار</h3>
         </div>
+      </div>
+      <div className="fastCall">
+        <p>هر روز هفته 24 ساعت در خدمت شما هستیم !</p>
+        <a href="tel:09122098200">09122098200</a>
       </div>
     </section>
   );
